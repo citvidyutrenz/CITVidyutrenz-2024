@@ -23,7 +23,7 @@ const buttonStyle = {
 const Section = () => {
   return (
      <>
-          <section className='flex flex-col md:flex-row border rounded-3xl m-10 md:mt-20'style={{
+          <section className='flex flex-col md:w-[80%] md:p-12 md:flex-row border rounded-3xl m-10 md:mt-20'style={{
             WebkitBackdropFilter: 'blur(3px)',
             backdropFilter: 'blur(10px)',
             backgroundColor:''
@@ -46,7 +46,10 @@ const Section = () => {
             </div>
           </section>
 
-          <section className='flex flex-col md:flex-row border rounded-3xl m-10 md:mt-16'style={{
+
+
+
+          <section className='flex flex-col md:w-[80%] md:p-12 md:flex-row border rounded-3xl m-10 md:mt-16'style={{
             WebkitBackdropFilter: 'blur(3px)',
             backdropFilter: 'blur(10px)',
             backgroundColor:''
@@ -69,7 +72,7 @@ const Section = () => {
             </div>
           </section>
 
-          <section className='flex flex-col md:flex-row border rounded-3xl m-10 md:mt-16'style={{
+          <section className='flex flex-col md:w-[80%] md:p-12 md:flex-row border rounded-3xl m-10 md:mt-16'style={{
             WebkitBackdropFilter: 'blur(3px)',
             backdropFilter: 'blur(10px)',
             backgroundColor:''

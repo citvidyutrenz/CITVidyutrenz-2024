@@ -47,28 +47,6 @@ const Home = () => {
               Home
             </div>
           </motion.div>
-          <motion.div
-            className="text-white cursor-pointer hover:text-gray-300"
-            initial={{ opacity: 0, y: 100 }} // Initial state
-            animate={{ opacity: 1, y: 0 }} // Target state
-            transition={{ type: "smooth", duration: 1, delay: 0.5 }}
-            onClick={() => router("/events")}
-          >
-            Events
-          </motion.div>
-          <motion.div
-            className="object-cover text-white"
-            initial={{ opacity: 0, y: 100 }} // Initial state
-            animate={{ opacity: 1, y: 0 }} // Target state
-            transition={{ type: "smooth", duration: 1, delay: 0.6 }}
-          >
-            <div
-              className="text-white cursor-pointer hover:text-gray-300"
-              onClick={() => router("/about")}
-            >
-              About Us
-            </div>
-          </motion.div>
           {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
@@ -84,6 +62,10 @@ const Home = () => {
           <div className="text-white cursor-pointer hover:text-gray-300">Sponsors</div>
           </motion.div> */}
         </div>
+
+        <button className="md:hidden text-white" onClick={toggleMenu}>
+          <GiHamburgerMenu />
+        </button>
 
         <button className="md:hidden text-white" onClick={toggleMenu}>
           <GiHamburgerMenu />
@@ -120,26 +102,20 @@ const Home = () => {
                 About Us
               </div>
             </motion.div>
-            <motion.div
-              className="object-cover text-white"
-              initial={{ opacity: 0, y: 100 }} // Initial state
-              animate={{ opacity: 1, y: 0 }} // Target state
-              transition={{ type: "smooth", duration: 1, delay: 0.6 }}
-            >
-              <div className="text-white cursor-pointer hover:text-gray-300">
-                Contact Us
-              </div>
-            </motion.div>
-            <motion.div
-              className="object-cover text-white"
-              initial={{ opacity: 0, y: 100 }} // Initial state
-              animate={{ opacity: 1, y: 0 }} // Target state
-              transition={{ type: "smooth", duration: 1, delay: 0.7 }}
-            >
-              <div className="text-white cursor-pointer hover:text-gray-300">
-                Sponsors
-              </div>
-            </motion.div>
+            {/* <motion.div className='object-cover text-white'
+          initial={{ opacity: 0, y: 100 }} // Initial state
+          animate={{ opacity: 1, y: 0}} // Target state
+          transition={{ type: 'smooth', duration: 1, delay: 0.6 }}
+          >
+          <div className="text-white cursor-pointer hover:text-gray-300">Contact Us</div>
+          </motion.div> */}
+            {/* <motion.div className='object-cover text-white'
+          initial={{ opacity: 0, y: 100 }} // Initial state
+          animate={{ opacity: 1, y: 0}} // Target state
+          transition={{ type: 'smooth', duration: 1, delay: 0.7 }}
+          >
+          <div className="text-white cursor-pointer hover:text-gray-300">Sponsors</div>
+          </motion.div> */}
           </div>
           <button
             className="block mx-auto mt-4 text-white"

@@ -64,19 +64,19 @@ const Aboutus1 = () => {
 
 {/* IMAGES - OUTLINE , OUTFILL, IMAGE */}
 
-        <div className="relative flex-1 ">
+        <div className="relative flex-1">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             transition={{ ...transition, duration: 2 }}
             animate={{ opacity: 1, x: 0 }}
-            className="absolute h-20 bg-transparent border-2 border-white w-44 lg:h-96 lg:w-80 md:h-44 md:w-40 right-14 top-2"
+            className="relative h-20 bg-transparent border-2 border-white w-44 lg:h-96 lg:w-80 md:h-fit md:w-40 md:ml-[240px] right-14 top-2"
           ></motion.div>
 
           <motion.div
             initial={{ opacity: 0, x: 100 }}
             transition={{ ...transition, duration: 2 }}
             animate={{ opacity: 1, x: 0 }}
-            className="absolute h-48 bg-white w-44 lg:h-96 lg:w-80 md:h-44 md:w-40 right-2 top-14"
+            className="absolute h-48 bg-white w-44 lg:h-96 lg:w-80 md:h-44 md:w-40 md:ml-[220px] top-10"
           ></motion.div>
 
           <motion.img
@@ -85,7 +85,7 @@ const Aboutus1 = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -100 }}
             transition={transition}
-            className="absolute object-cover h-48 imgcolor w-44 lg:h-96 lg:w-80 md:h-44 md:w-40 right-8 top-8"
+            className="absolute object-cover h-48 imgcolor w-44 lg:h-96 lg:w-80 md:h-1/2 md:w-1/2 md:ml-[235px] top-8"
             src={AboutusData[selected].image}
             alt=""
           />
