@@ -5,7 +5,7 @@ import cd from "../assets/cd.jpg";
 
 const Home = () => {
   return (
-    <div className="bgg op-0 h-screen bg-fixed">
+    <div className="bgg op-0 h-screen bg-fixed ">
       <div>
         <Home1 />
       </div>

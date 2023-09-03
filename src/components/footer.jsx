@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bottom-0 justify-center flex flex-col  text-white text-center md:flex-row md:space-x-96 " style={{WebkitBackdropFilter: 'blur(3px)', // Apply the blur effect using -webkit-backdrop-filter
     backdropFilter: 'blur(3px)'}}>
      
-            <div className="md:flex flex items-center justify-center space-x-10 mb-1 md:mb-0 text-base md:text-xl">
+            <div className="md:flex flex items-center  justify-center space-x-10 mb-1 md:mb-0 text-l md:text-xl">
                 <a href="https://www.facebook.com/" >
                 <FaYoutube className=''/>
                 </a>

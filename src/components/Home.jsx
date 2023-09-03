@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 import AnimateVariant from "./framer";
 import Footer from "./footer";
 import Section from "./Section";
-import Memories from "./Memories";
+// import Memories from "./Memories";
 import ContactUS from "./ContactUs";
-import CardWithVideo from "./Memories1";
-import Events from "../pages/Events";
+// import CardWithVideo from "./Memories1";
+// import Events from "../pages/Events";
 
 const Home1 = () => {
   const targetDate = new Date("2023-09-21T00:00:00").getTime();
@@ -72,7 +72,10 @@ const Home1 = () => {
         <Section />
 
         <ContactUS />
+        <div className="mt-24 ">
         <Footer />
+        </div>
+        
       </div>
     </motion.div>
   );
