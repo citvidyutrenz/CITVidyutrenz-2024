@@ -1,10 +1,12 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import emailjs from 'emailjs-com';
-import '../pages/Contact.css'
+import '../pages/Contact.css';
+
 const ContactUS = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
+  const [queries, setQueries] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,26 +19,27 @@ const ContactUS = () => {
     const templateParams = {
       from_name: name,
       from_email: email,
-      message: phoneNumber,
-      reply_to: email, 
+      message: `Full Name: ${name}\nEmail: ${email}\nMobile: ${phoneNumber}\nQueries: ${queries}`,
+      reply_to: email,
     };
 
     emailjs
       .send(serviceID, templateID, templateParams, userID)
       .then(
         (result) => {
-          alert('Email Sent Sucdcesfully')
+          alert('Email Sent Successfully');
           console.log('Email sent successfully:', result.text);
-          // Add any success message or redirect logic here
+
+          // Clear the input fields
+          setEmail('');
+          setPhoneNumber('');
+          setName('');
+          setQueries('');
         },
         (error) => {
           console.error('Email sending failed:', error.text);
-          // Add error handling logic here
         }
       );
-      setEmail("")
-      setPhoneNumber("")
-      setName("")
   };
 
   return (
@@ -71,8 +74,9 @@ const ContactUS = () => {
             />
             <textarea
               placeholder="Enter Your Queries"
+              value={queries}
+              onChange={(e) => setQueries(e.target.value)}
               required
-              defaultValue={""}
               className="input custom-input"
               style={{ resize: 'none' }}
             />
