@@ -65,9 +65,7 @@ const Home1 = () => {
           <Footer />
         </div>
         <Section />
-        <Memories />
-        <CardWithVideo />
-        
+        <Memories />    
         <ContactUS />
         <Footer />
       </div>
