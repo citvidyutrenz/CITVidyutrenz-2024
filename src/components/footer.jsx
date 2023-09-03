@@ -7,7 +7,7 @@ const Footer = () => {
      
             <div className="md:flex flex items-center justify-center space-x-10 mb-1 md:mb-0 text-base md:text-xl">
                 <a href="https://www.facebook.com/" >
-                <FaYoutube/>
+                <FaYoutube className=''/>
                 </a>
                 <a href="https://twitter.com/" >
                 <FaTwitter />

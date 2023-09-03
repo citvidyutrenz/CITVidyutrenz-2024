@@ -1,8 +1,12 @@
 import { useState } from "react";
 import cd from "../assets/cit.png";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const Card = ({ Event }) => {
+const Card = ({ Event, index }) => {
+  const ref = useRef(null);
+  const isinView = useInView(ref);
   const router = useNavigate();
   const [hovered, setHovered] = useState(false);
 
@@ -19,8 +23,13 @@ const Card = ({ Event }) => {
     maxWidth: "300px",
     overflow: "hidden",
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-    transition: "filter 0.3s",
+    // transition: "filter 0.3s",
     borderRadius: "10px",
+    transform: isinView ? "none" : "translateX(-100px)",
+    opacity: isinView ? 1 : 0,
+    transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${
+      (index + 1) * 0.2
+    }s`,
   };
 
   const imageStyle = {
@@ -47,6 +56,7 @@ const Card = ({ Event }) => {
 
   return (
     <div
+      ref={ref}
       style={cardStyle}
       onMouseEnter={handleHover}
       onMouseLeave={handleMouseLeave}
