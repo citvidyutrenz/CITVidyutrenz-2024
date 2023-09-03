@@ -31,7 +31,6 @@ const Home1 = () => {
          <div className="mt-[250px] md:mt-[370px]">
             <Footer/>
         </div>
-            <Aboutus1/>
             <Section/>
             <Memories/>
             <ContactUS/>

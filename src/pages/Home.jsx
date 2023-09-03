@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='bgg op-0 h-screen bg-fixed '>
       
-      <div className=' fixed w-auto md:h-screen md:w-full z-50'>
+      <div className=' fixed w-auto md:h-fit md:w-full z-50'>
         <Navbar/>
       </div>
       <div >

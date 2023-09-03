@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <nav className="bg-black-800 p-4 w-screen" style={{WebkitBackdropFilter: 'blur(5px)', backdropFilter: 'blur(5px)'}}>
+    <nav className="bg-black-800 p-4 w-screen z-30" style={{WebkitBackdropFilter: 'blur(5px)', backdropFilter: 'blur(5px)'}}>
       <div className="flex items-center justify-between p-4 ">
         <div className="text-white text-xl">
         <motion.div
