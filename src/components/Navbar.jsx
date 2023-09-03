@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <nav
-      className="bg-black-800 p-4 w-screen z-50"
+      className="bg-black-800 p-4 w-screen z-50 h-[20vh]"
       style={{ WebkitBackdropFilter: "blur(5px)", backdropFilter: "blur(5px)" }}
     >
       <div className="flex items-center justify-between p-4 ">
@@ -47,6 +47,32 @@ const Home = () => {
               Home
             </div>
           </motion.div>
+          <motion.div
+            className="object-cover text-white"
+            initial={{ opacity: 0, y: 100 }} // Initial state
+            animate={{ opacity: 1, y: 0 }} // Target state
+            transition={{ type: "smooth", duration: 1, delay: 0.5 }}
+          >
+            <div
+              className="text-white cursor-pointer hover:text-gray-300"
+              onClick={() => router("/events")}
+            >
+              Events
+            </div>
+          </motion.div>
+          <motion.div
+            className="object-cover text-white"
+            initial={{ opacity: 0, y: 100 }} // Initial state
+            animate={{ opacity: 1, y: 0 }} // Target state
+            transition={{ type: "smooth", duration: 1, delay: 0.4 }}
+          >
+            <div
+              className="text-white cursor-pointer hover:text-gray-300"
+              onClick={() => router("/about")}
+            >
+              About
+            </div>
+          </motion.div>
           {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
@@ -65,9 +91,9 @@ const Home = () => {
 
       
 
-        <button className="md:hidden text-white" onClick={toggleMenu}>
+        {/* <button className="md:hidden text-white" onClick={toggleMenu}>
           <GiHamburgerMenu />
-        </button>
+        </button> */}
       </div>
       {isOpen && (
         <div className=" fixed top-0 right-0 h-screen bg-black p-10 w-64 transition-transform transform translate-x-0 md:hidden z-100">
@@ -77,6 +103,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ type: "smooth", duration: 1, delay: 0.3 }}
+              onClick={() => router("/")}
             >
               <div className="text-white cursor-pointer">Home</div>
             </motion.div>
@@ -85,9 +112,10 @@ const Home = () => {
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ type: "smooth", duration: 1, delay: 0.4 }}
+              onClick={() => router("/events")}
             >
               <div className="text-white cursor-pointer hover:text-gray-300">
-                Event
+                Events
               </div>
             </motion.div>
             <motion.div
@@ -95,6 +123,7 @@ const Home = () => {
               initial={{ opacity: 0, y: 100 }} // Initial state
               animate={{ opacity: 1, y: 0 }} // Target state
               transition={{ type: "smooth", duration: 1, delay: 0.5 }}
+              onClick={() => router("/about")}
             >
               <div className="text-white cursor-pointer hover:text-gray-300">
                 About Us
