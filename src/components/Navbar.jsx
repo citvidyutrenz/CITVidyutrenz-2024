@@ -71,7 +71,7 @@ const Home = () => {
         
       </div>
       {isOpen && (
-        <div className="fixed top-0 right-0 h-screen bg-black p-10 w-64 transition-transform transform translate-x-0 md:hidden">
+        <div className=" fixed top-0 right-0 h-screen bg-black p-10 w-64 transition-transform transform translate-x-0 md:hidden">
           <div className="font-bold text-center flex flex-col space-y-8 text-xs ">
           <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} 
