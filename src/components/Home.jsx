@@ -65,7 +65,7 @@ const Home1 = () => {
           <Footer />
         </div>
         <Section />
-        <Memories />    
+
         <ContactUS />
         <Footer />
       </div>
