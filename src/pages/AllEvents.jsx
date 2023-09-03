@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Events } from "../data/data.js";
 
 const AllEvents = () => {
-  const transition = { type: "spring", duration: 2.5 };
+  const transition = { type: "spring", duration: 1.5 };
   const TechEvents = Events.filter((event) => event.tag === "tech");
   const NonTechEvents = Events.filter((event) => event.tag === "nontech");
   const Workshops = Events.filter((event) => event.tag === "workshop");
@@ -15,9 +15,9 @@ const AllEvents = () => {
         <section className="w-full flex justify-center md:justify-start mb-5">
           <motion.h1
             className="text-[30px]"
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 0 }}
+            // exit={{ opacity: 0, x: 0 }}
             transition={transition}
           >
             WORKSHOP
@@ -25,15 +25,12 @@ const AllEvents = () => {
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] md:gap-[1rem]">
           {Workshops.map((Event, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, x: -100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 100 }}
-              transition={{ ...transition, duration: (index + 1) * 0.8 }}
-            >
-              <Card Event={Event} />
-            </motion.div>
+            // initial={{ opacity: 0, x: -50 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // exit={{ opacity: 0, x: 100 }}
+            // transition={{ ...transition, duration: (index + 1) * 0.5 }}
+
+            <Card Event={Event} index={index} key={index} />
           ))}
         </section>
       </div>
@@ -52,15 +49,11 @@ const AllEvents = () => {
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] md:gap-[1rem]">
           {TechEvents.map((Event, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 100 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 0 }}
-              transition={{ ...transition, duration: (index + 1) * 0.8 }}
-            >
-              <Card Event={Event} />
-            </motion.div>
+            // initial={{ opacity: 0, x: -50 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // exit={{ opacity: 0, y: 0 }}
+            // transition={{ ...transition, duration: (index + 1) * 0.5 }}
+            <Card Event={Event} index={index} key={index} />
           ))}
         </section>
       </div>
@@ -71,7 +64,7 @@ const AllEvents = () => {
             className="text-[30px]"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: 0 }}
+            // exit={{ opacity: 0, x: 0 }}
             transition={transition}
           >
             NON TECH EVENTS
@@ -79,15 +72,12 @@ const AllEvents = () => {
         </section>
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem] md:gap-[1rem]">
           {NonTechEvents.map((Event, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, x: 100 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: 0 }}
-              transition={{ ...transition, duration: (index + 1.5) * 0.8 }}
-            >
-              <Card Event={Event} />
-            </motion.div>
+            // initial={{ opacity: 0, x: -50 }}
+            // whileInView={{ opacity: 1, x: 0 }}
+            // exit={{ opacity: 0, x: 0 }}
+            // transition={{ ...transition, duration: (index + 1.5) * 0.8 }}
+
+            <Card Event={Event} index={index} key={index} />
           ))}
         </section>
       </div>
