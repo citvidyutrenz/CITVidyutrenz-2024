@@ -6,6 +6,7 @@ import Section from './Section';
 import Memories from './Memories';
 import ContactUS from './ContactUs';
 import CardWithVideo from './Memories1';
+import Events from '../pages/Events'
 
 const Home1 = () => {
   const targetDate = new Date('2023-09-21T00:00:00').getTime();
@@ -60,12 +61,13 @@ const Home1 = () => {
             <p className="mt-8 text-center text-2xl"> {countdown}</p>
           </div>
         </div>
-        <div className="mt-[150px] md:mt-[220px] md:ml-6">
+        <div className="mt-[190px] md:mt-[220px] md:ml-6">
           <Footer />
         </div>
         <Section />
         <Memories />
         <CardWithVideo />
+        
         <ContactUS />
         <Footer />
       </div>
