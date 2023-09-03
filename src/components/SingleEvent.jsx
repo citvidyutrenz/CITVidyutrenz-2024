@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useNavigate, useParams } from "react-router-dom";
 import { Events } from "../data/data.js";
 import { motion } from "framer-motion";

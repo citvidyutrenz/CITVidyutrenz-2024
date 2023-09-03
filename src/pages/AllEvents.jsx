@@ -1,4 +1,4 @@
-import React from "react";
+
 import Card from "../components/Card";
 import { motion } from "framer-motion";
 import { Events } from "../data/data.js";
