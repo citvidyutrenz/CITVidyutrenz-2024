@@ -91,9 +91,9 @@ const Home = () => {
 
       
 
-        {/* <button className="md:hidden text-white" onClick={toggleMenu}>
+        <button className="md:hidden text-white" onClick={toggleMenu}>
           <GiHamburgerMenu />
-        </button> */}
+        </button> 
       </div>
       {isOpen && (
         <div className=" fixed top-0 right-0 h-screen bg-black p-10 w-64 transition-transform transform translate-x-0 md:hidden z-100">
