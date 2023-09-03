@@ -63,9 +63,7 @@ const Home = () => {
           </motion.div> */}
         </div>
 
-        <button className="md:hidden text-white" onClick={toggleMenu}>
-          <GiHamburgerMenu />
-        </button>
+      
 
         <button className="md:hidden text-white" onClick={toggleMenu}>
           <GiHamburgerMenu />
