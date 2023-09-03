@@ -33,7 +33,7 @@ const SingleEventPage = () => {
   const event = Events.find((event) => event.id === Number(id));
   return (
     <>
-      <main className="text-white flex justify-center items-center h-full w-full py-[2rem] overflow-hidden">
+      <main className="text-white flex justify-center items-center h-full w-full py-[2rem] pt-[20vh] overflow-hidden">
         {/* <div
           className="blur w-full h-full -z-10 bg-[#ffffff1a] backdrop-blur-md "
           style={{
@@ -191,7 +191,7 @@ const SingleEventPage = () => {
                   <h2 className="text-[1rem] mb-2 relative before:w-[105%] before:h-[2px] before:bg-slate-500 before:absolute before:top-[100%] before:rounded-full before:opacity-50">
                     JUDGING CRITERIA
                   </h2>
-                  <p className="text-[10px] text-slate-300">
+                  <p className="text-[12px] text-slate-300">
                     {event.judgingCriteria &&
                       event.judgingCriteria.map((criteria, index) => {
                         return (

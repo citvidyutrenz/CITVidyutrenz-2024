@@ -12,9 +12,9 @@
         "Finality will be accorded to the jury's judgement.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764811/vidyuimages/Erukethon_vxicxn.jpg",
          tag: "tech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSfOaJmR7VqD6THt2s1IhZjf8Sr_4Bkxt8cR2csDGK1pcqOPkg/viewform?usp=sharing"
     },
     {
       id: 2,
@@ -35,9 +35,9 @@
         "Participants who can design a circuit faster and with accuracy of circuits can be considered as a winner.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301953/lumos/Career4_gwvyv2.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764811/vidyuimages/guessing2_nc1jwm.jpg",
         tag: "tech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSf2VaPmFsG3fBByQuHWUokbIvqS0FJOcWTEo9doiNq7UO0otQ/viewform?usp=sharing"
     },
     {
       id: 3,
@@ -61,9 +61,9 @@
           "Top three participants will be considered as winners"
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764811/vidyuimages/rivalria_jzradn.jpg",
         tag: "tech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSfmdY0JoNWWuj9Oo_spy6tMDJtMYa9rRfZ4ERHK_2gHTWqrhw/viewform?usp=sharing"
     },
     {
       id: 4,
@@ -84,9 +84,9 @@
         "The team which finds the correct answer within a short span of time will be awarded with points. At last, the team with more points will be considered as winners.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764812/vidyuimages/word_guessing_gcg1ya.jpg",
         tag: "tech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSe1W2vJYeQ-Ned2TBhhDEM6cLmGnozHyOJh1jSWpp79xggAiA/viewform?usp=sharing"
     },
     {
       id: 5,
@@ -103,9 +103,9 @@
         "The decision of the Adjudication Panel is final.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764812/vidyuimages/Innovesta2_n5awok.jpg",
         tag: "tech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSew3X-PSZuKZAC_sixKPy1blE3yS4S3hn0kc6qYjQPIXhU63g/viewform?usp=sharing"
     },
    
     {
@@ -118,7 +118,7 @@
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSfeQUGwKIbSE000wg5CAYzAyzl_FuGp7gq-OKpSseXTdcna4w/viewform?usp=sharing",
         fee:150
     },
     {
@@ -130,7 +130,7 @@
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
         preReq: ["NotePad, Laptop"],
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScqkWAHy13igDhJzTVaNq6H1J4cpdoohrT4L_3AR0yfelE-tw/viewform?usp=sharing",
       fee:150
     },
     {
@@ -140,11 +140,11 @@
         "Enter the realm of the Internet of Things (IoT) in this workshop. Discover how everyday objects become smart and interconnected, paving the way for a future of unlimited possibilities.",
      
       imgUrl:
-            "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+            "https://res.cloudinary.com/e-compractice/image/upload/v1693764810/vidyuimages/IOT_vkegxc.jpg",
       preReq: ["NotePad, Laptop"],
       
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc35RhxfWe87UyfIW7cpx1Z-xzbOut6fTM4ftZRbi-yFX2O0Q/viewform?usp=sharing",
         fee:150,
     },
     {
@@ -157,7 +157,7 @@
             "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
        preReq: ["NotePad, Laptop"],
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSer-z-uG4mrrwEVKzKnHeJR9WOILCuw1Kzh8xuqKwfGsebFHA/viewform?usp=sharing",
       fee:150,
     },
     {
@@ -169,7 +169,7 @@
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLScNycPv8SeGjpXMud7Z58rjHQlOAkLKey-EgbP00PChHHgETw/viewform?usp=sharing",
       fee:200
     },
     {
@@ -181,7 +181,7 @@
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
         tag: "workshop",
-        link: "link",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSe52PyZptkImLYBRA8ZHXyXjmUneTMU55e3I5U3_yS17shsTg/viewform?usp=sharing",
        fee:150,
    },
      {
@@ -206,9 +206,9 @@
           "In case of the same number of correct answers, the time taken by the participants will be taken into consideration."
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764810/vidyuimages/anime_quiz_footj1.jpg",
         tag: "nontech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLScUEEpLwqdk0z2Vr51mvWX4KY6snX6C570L4EvYBLCga8Ld6Q/viewform?usp=sharing"
     },
     {
       id: 13,
@@ -236,9 +236,9 @@
         "Sportsmanship: Participants should display good sportsmanship, such as congratulating the winners and accepting defeat gracefully. Participants who show unsportsmanlike behavior would be disqualified.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301962/lumos/Career5_z6uoor.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693764810/vidyuimages/moviemaniac_xslaqh.jpg",
         tag: "nontech",
-      link:"link"
+      link:"https://docs.google.com/forms/d/e/1FAIpQLSfHXD_4dmvZONEPnBpMtrpvbPPLaR9Fd4dSjd-z-95zZqJQ_Q/viewform?usp=sharing"
     },
     // {
     //   id: 14,
