@@ -11,17 +11,15 @@ const Aboutus1 = () => {
   const tLength = AboutusData.length;
 
   return (
-    <div>
-      {/* <video autoPlay loop muted> */}
-        {/* <source src={bgvideo} type="video/mp4" /> */}
-      {/* </video> */}
-    <div className="flex flex-col h-screen gap-24 p-2 bg-transperant md:p-4 lg:p-8">
+    
+    <div className="flex flex-col h-screen mt-12 gap-24 p-2 bg-transperant md:p-4 lg:p-2 border rounded-3xl md:mt-16" style={{WebkitBackdropFilter: 'blur(10px)', // Apply the blur effect using -webkit-backdrop-filter
+    backdropFilter: 'blur(10px)'}}>
       
       <div className="flex flex-col gap-4 p-10 lg:flex-row bg-blur">
         <div className="flex flex-col flex-1 text-white">
 
-          <span className="text-3xl italic font-bold md:text-4xl lg:text-6xl stroke-text ">WHAT THEY</span>
-          <span className="text-3xl italic font-bold md:text-4xl lg:text-6xl">SAY ABOUT US</span>
+          <span className="text-3xl italic font-bold md:text-4xl lg:text-2xl stroke-text ">WHAT THEY</span>
+          <span className="text-3xl italic font-bold md:text-4xl lg:text-2xl">SAY ABOUT US</span>
           
           <motion.span
             key={selected}
@@ -29,12 +27,12 @@ const Aboutus1 = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 100 }}
             transition={transition}
-            className="pt-4 italic text-justify text-s lg:text-2xl my-7"
+            className="pt-4 font-serif text-xs md:text-l my-7"
           >
             {AboutusData[selected].review}
           </motion.span>
           <span className='text-lg'>
-            <span className="text-[#FE0000] font-bold italic">
+            <span className=" font-bold italic">
               {AboutusData[selected].name}
             </span>{" "}
            
@@ -66,7 +64,7 @@ const Aboutus1 = () => {
 
 {/* IMAGES - OUTLINE , OUTFILL, IMAGE */}
 
-        <div className="relative flex-1">
+        <div className="relative flex-1 ">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             transition={{ ...transition, duration: 2 }}
@@ -95,7 +93,7 @@ const Aboutus1 = () => {
         </div>
       </div>
     </div>
-    </div>
+
   );
 };
 

@@ -110,7 +110,7 @@
    
     {
       id: 6,
-      name: "VERY LARGE SCALE INTEGRATION",
+      name: "VLSI",
       description:
         "Discover the world of Very Large Scale Integration (VLSI) technology in this workshop. Dive into the design and development of microchips and integrated circuits.",
         preReq: ["NotePad, Laptop"],
