@@ -10,7 +10,7 @@ const AllEvents = () => {
   const Workshops = Events.filter((event) => event.tag === "workshop");
 
   return (
-    <main className="text-white overflow-hidden">
+    <main className="text-white overflow-hidden pt-[25vh]">
       <div className="w-[80%] flex flex-col justify-center items-center mx-auto p-3 md:p-[1rem] bg-[#ffffff1a] rounded-lg backdrop-blur-md mb-10 md:w-11/12 ">
         <section className="w-full flex justify-center md:justify-start mb-5">
           <motion.h1
