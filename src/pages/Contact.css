@@ -1,0 +1,25 @@
+.blur-form {
+    height: 420px;
+    width: auto;
+    /* background-color: rgba(212, 205, 205, 0.82);  */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+  }
+  .input{
+    
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 25px;
+    background: none;
+    border-bottom: 2px solid #f5f1f1;
+}
+.custom-input::placeholder {
+    color: rgb(105, 205, 208); /* Change to your desired color */
+  }
+  
+  .custom-input {
+    background: transparent; /* Set the background to transparent */
+    /* Add any other styling you want for the input box */
+}

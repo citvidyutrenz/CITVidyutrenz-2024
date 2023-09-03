@@ -1,0 +1,115 @@
+{
+    "events": [
+      {
+        "name": "TheatroTech",
+        "description": "A two members word-guessing event meant to identify the words related to electronics and communication. Each participant from a team will be given a clue card with few words written on it. The task is to find the correct word using that clue card.",
+        "rules": [
+          "Team size: 2 per team.",
+          "Game time: 2 mins.",
+          "Participants can skip and move to the next word.",
+          "Teams with top scores will be qualified for the next round.",
+          "Negative markings will be included in further rounds."
+        ],
+        "rounds": "Flexible based on the number of teams.",
+        "judgingCriteria": "Teams finding the correct answer quickly get awarded points. Team with more points wins."
+      },
+      {
+        "name": "Innovesta",
+        "description": "Innovesta is a project presentation event where participants can display their work. Typically, the event consists of a number of presentations, with each presenter exhibiting their work and outlining their objectives, processes, and outcomes. A project presentation event's goal is to highlight the work of individuals or teams in order to spread information and creative concepts.",
+        "rules": [
+          "Ensure the team is limited to 3 members.",
+          "The electronics and communication domains should be the focus of the project.",
+          "Each team is given a specified time window of between 8 and 10 minutes.",
+          "Following each presentation, there is a viva session in which the participants will be questioned about their work. Marks will be assigned based on the response given, and these marks will be counted towards the final evaluation.",
+          "Working prototype is mandatory.",
+          "Hardcopy of abstract and prototype must be brought.",
+          "The decision of the Adjudication Panel is final."
+        ],
+        "rounds": "One presentation round.",
+        "judgingCriteria": "Evaluation based on presentation quality, responses in viva session, and adherence to rules."
+      },
+      {
+        "name": "Rivalria",
+        "description": "Rivalria: A debate event that comprises teams from different colleges and will be debating on a technical topic as a team.",
+        "rules": [
+          "Group Discussion - 6 members per batch. Irrelevant topics should be avoided and professional discussion should be maintained.",
+          "The participants will be given marks on an overall manner not in a batch manner (Two or more can be selected from a single batch)",
+          "Participants will not be given any time after the commencement of the event."
+        ],
+        "rounds": {
+          "round1": "Participants are split into equal groups and given specific technical topics for discussion.",
+          "round2": "Selected teams are given a technical topic on the spot with time to discuss. Top 3 members with valuable points are declared winners."
+        },
+        "judgingCriteria": {
+          "criteria1": "Overall good performance in both rounds 1 and 2.",
+          "criteria2": "Innovative ideas and conclusions.",
+          "criteria3": "Top three teams are considered winners."
+        }
+      },
+      {
+        "name": "Eurekathon",
+        "description": "A paper presentation event, where students from various colleges gather to present their research papers before the judges.",
+        "rules": [
+          "Applicants must turn in their abstract prior to the deadline.",
+          "Only two people can be on a team at once.",
+          "Soft copy of the presentation must be sent while registering.",
+          "Each team will have a maximum time constraint of 5 to 8 minutes.",
+          "Finality will be accorded to the jury's judgement."
+        ],
+        "rounds": "One paper presentation round.",
+        "judgingCriteria": "Evaluation based on paper quality, presentation, and adherence to rules."
+      },
+      {
+        "name": "ElectroMaze",
+        "description": "ElectroMaze is a circuit redesigning event. Circuit diagram will be displayed once and participants have to redesign it within a stipulated time.",
+        "rules": [
+          "Team size: 2 per team.",
+          "Event time: 3 mins.",
+          "Teams with top scores will be qualified.",
+          "Participants should redesign the circuit in Tinkercad."
+        ],
+        "rounds": {
+          "round1": "Participants redesign a circuit by picking a circuit from the bunch displayed.",
+          "round2": "Shortlisted participants from round 1 redesign a more complicated circuit."
+        },
+        "judgingCriteria": "Participants who can design a circuit faster and with accuracy are considered winners."
+      },
+      {
+        "name": "DebugCon",
+        "description": "A two members circuit debugging game in which a defective circuit will be given and the game is to find the defect and make the circuit work in the given time by the team mates.",
+        "rules": [
+          "Team size: 2, Game time: 2 mins.",
+          "No. of rounds: 2 rounds event.",
+          "Round 1 will be of moderate difficulty and round 2 has some twists in the circuit.",
+          "Teams performing well and scoring points can go to the next level."
+        ],
+        "rounds": "Two rounds.",
+        "judgingCriteria": "Teams finding the defect quickly will be given maximum marks. Teams with high scores at the end win."
+      },
+      {
+        "name": "TechRangers",
+        "description": "A tech-related treasure hunt in which tech-related clues will be given and participants should follow the clues to find the treasure of the event.",
+        "rules": [
+          "Team size: 2 - 4.",
+          "Game time: 10 - 15 mins.",
+          "It is a single round event.",
+          "Teams performing well and scoring points can go to the next level."
+        ],
+        "rounds": "One treasure hunt round.",
+        "judgingCriteria": "Teams finding the treasure quickly will be given maximum points. The team with the most points wins."
+      },
+      {
+        "name": "Code Supreme",
+        "description": "Immerse yourself in a realm of innovation and problem-solving at our thrilling coding competition. From beginners to experts, everyone is invited to participate in this engaging technical challenge.",
+        "rules": [
+          "Eligibility: Open to all skill levels and backgrounds.",
+          "Team Formation: Form teams 2-4 or compete individually.",
+          "Coding Challenges: Tackle diverse challenges within set timeframes.",
+          "Submission: Submit solutions before the given deadline.",
+          "Fair Play: Plagiarism and unauthorized assistance result in disqualification."
+        ],
+        "judgingCriteria": "Evaluation based on solution accuracy, efficient code, innovative problem-solving, clear documentation, and effective teamwork."
+      }
+    ]
+  }
+  

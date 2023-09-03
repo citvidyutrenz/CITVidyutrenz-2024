@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Against'; /* Replace with your desired font name */
+    src: url('../src/assets/fonts/against.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
