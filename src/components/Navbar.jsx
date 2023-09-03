@@ -12,7 +12,7 @@ const Home = () => {
   };
 
   return (
-    <nav className="bg-black-800 p-4 w-screen z-30" style={{WebkitBackdropFilter: 'blur(5px)', backdropFilter: 'blur(5px)'}}>
+    <nav className="bg-black-800 p-4 w-screen" style={{WebkitBackdropFilter: 'blur(5px)', backdropFilter: 'blur(5px)'}}>
       <div className="flex items-center justify-between p-4 ">
         <div className="text-white text-xl">
         <motion.div
@@ -48,20 +48,20 @@ const Home = () => {
           >
           <div className="text-white cursor-pointer hover:text-gray-300">About Us</div>
           </motion.div>
-          <motion.div className='object-cover text-white'
+          {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
           transition={{ type: 'smooth', duration: 1, delay: 0.7 }}
           >
           <div className="text-white cursor-pointer hover:text-gray-300">Contact Us</div>
-          </motion.div>
-          <motion.div className='object-cover text-white'
+          </motion.div> */}
+          {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
           transition={{ type: 'smooth', duration: 1, delay: 0.8 }}
           >
           <div className="text-white cursor-pointer hover:text-gray-300">Sponsors</div>
-          </motion.div>
+          </motion.div> */}
           </div>
           
           <button className="md:hidden text-white" onClick={toggleMenu}>
@@ -94,20 +94,20 @@ const Home = () => {
           >
           <div className="text-white cursor-pointer hover:text-gray-300">About Us</div>
           </motion.div>
-          <motion.div className='object-cover text-white'
+          {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
           transition={{ type: 'smooth', duration: 1, delay: 0.6 }}
           >
           <div className="text-white cursor-pointer hover:text-gray-300">Contact Us</div>
-          </motion.div>
-          <motion.div className='object-cover text-white'
+          </motion.div> */}
+          {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
           animate={{ opacity: 1, y: 0}} // Target state
           transition={{ type: 'smooth', duration: 1, delay: 0.7 }}
           >
           <div className="text-white cursor-pointer hover:text-gray-300">Sponsors</div>
-          </motion.div>
+          </motion.div> */}
           </div>
           <button className="block mx-auto mt-4 text-white" onClick={toggleMenu}>
           <motion.div className='object-cover text-white'
