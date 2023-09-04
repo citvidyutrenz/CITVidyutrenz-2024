@@ -1,9 +1,13 @@
-
+import { useInView } from 'react-intersection-observer';
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Section = () => {
   const router = useNavigate();
+  const transition = { type: "bounce", duration: 3};
+  const [ref, inView] = useInView({
+    triggerOnce: true, // Trigger the animation only once when it comes into view
+  });
 
   return (
     <>
@@ -16,9 +20,9 @@ const Section = () => {
         }}
       >
         <motion.div
-          initial={{ opacity: 0, x: -100 }} // Initial animation state (left to right)
-          animate={{ opacity: 1, x: 0 }} // Animation when it's visible
-          transition={{ duration: 3 }} // Animation duration
+          initial={{ opacity: 0, x: -100 }} 
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}
           className="text-center md:text-left md:w-1/2"
         >
           <h1 className="text-2xl font-bold p-6 pb-0 mb-4">Workshop</h1>
@@ -30,19 +34,22 @@ const Section = () => {
             career advancement.
           </p>
           <motion.button
+            ref={ref}
             initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
-            animate={{ opacity: 1, y: 0 }} // Animation when it's visible
-            transition={{ duration: 3, delay: 1.5 }} // Animation duration with a delay
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
+            transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
             Explore
           </motion.button>
         </motion.div>
+
         <motion.div
-          initial={{ opacity: 0, x: 100 }} // Initial animation state (right to left)
-          animate={{ opacity: 1, x: 0 }} // Animation when it's visible
-          transition={{ duration: 3 }} // Animation duration
+          initial={{ opacity: 0, x: 100 }} 
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}
           className="flex justify-center items-center p-3 md:w-1/2"
         >
           <img
@@ -52,7 +59,7 @@ const Section = () => {
           />
         </motion.div>
       </section>
-      ;
+      
       <section
         className="flex flex-col md:w-[80%] md:p-12 md:flex-row border rounded-3xl m-10 md:mt-16"
         style={{
@@ -63,8 +70,8 @@ const Section = () => {
       >
         <motion.div
           initial={{ opacity: 0, x: -100 }} // Initial animation state (left to right)
-          animate={{ opacity: 1, x: 0 }} // Animation when it's visible
-          transition={{ duration: 1 }} // Animation duration
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}
           className="text-center md:text-left md:w-1/2"
         >
           <h1 className="text-2xl font-bold p-6 pb-0 mb-4">Technical</h1>
@@ -74,10 +81,13 @@ const Section = () => {
             exposure, a platform to showcase your technical skills. Have your
             ticket to the tech World.
           </p>
+          <motion.div/>
           <motion.button
+            ref={ref}
             initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
-            animate={{ opacity: 1, y: 0 }} // Animation when it's visible
-            transition={{ duration: 0.5, delay: 0.5 }} // Animation duration with a delay
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
+            transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
@@ -85,9 +95,9 @@ const Section = () => {
           </motion.button>
         </motion.div>
         <motion.div
-          initial={{ opacity: 0, x: 100 }} // Initial animation state (right to left)
-          animate={{ opacity: 1, x: 0 }} // Animation when it's visible
-          transition={{ duration: 1 }} // Animation duration
+          initial={{ opacity: 0, x: 100 }} 
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}// Animation duration
           className="flex justify-center items-center p-3 md:w-1/2"
         >
           <img
@@ -105,7 +115,11 @@ const Section = () => {
           backgroundColor: "",
         }}
       >
-        <div className="text-center md:text-left md:w-1/2">
+        <motion.div
+          initial={{ opacity: 0, x: -100 }} 
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}
+          className="text-center md:text-left md:w-1/2">
           <h1 className="  text-2xl font-bold p-6 pb-0 mb-4">Non-Technical</h1>
           <p className="text-white p-6 pt-0 text-xs md:text-xl font-serif">
             Let the inner child in you peek out for a moment. Events that never
@@ -113,21 +127,30 @@ const Section = () => {
             maybe a perspective a little different this time? Turn the tables,
             trace the pattern, and find that out to bring it up.
           </p>
-          <button
+          
+          <motion.button
+            ref={ref}
+            initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
+            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
+            transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
             Explore
-          </button>
-        </div>
-
-        <div className="flex justify-center items-center p-3 md:w-1/2">
+          </motion.button>
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, x: 100 }} 
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={transition}
+          className="flex justify-center items-center p-3 md:w-1/2">
           <img
             src="https://res.cloudinary.com/e-compractice/image/upload/v1693764810/vidyuimages/anime_quiz_footj1.jpg"
             className="w-[80px] h-50 md:w-[300px] md:h-[300px] md:h-50 "
             alt="Reload Again"
           />
-        </div>
+        </motion.div>
       </section>
     </>
   );
