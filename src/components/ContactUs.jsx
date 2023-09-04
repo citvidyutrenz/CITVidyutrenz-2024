@@ -99,16 +99,15 @@ const ContactUS = () => {
               Send
             </button>
           </div>
-          <div className="flex flex-col space-y-4  pb-16 md:mt-2 md:pr-12 ">
-          <p className="bg-black bg-opacity-50 p-4 rounded-lg text-xs md:text-2xl "> 
+          <div className=" flex flex-col space-y-4  pb-16 md:mt-2 md:pr-12 ">
+          <p className="text-xl text-center bg-black bg-opacity-50 p-4 rounded-lg  md:text-xl md:pr-14   "> 
             President<br/>
-            <a href="tel:9894226269" className='text-xl'>Yuvaraj <br /> 9894226269</a></p>
-          <p className="bg-black bg-opacity-50 p-2 rounded-lg text-xs md:text-xl">
-            <a href="tel:9894226269">Jeesmon SJ: <br />9894226269</a>
+            <a href="tel:9894226269" className='text-base md:text-xl  '>Yuvaraj <br /> 9894226269</a></p>
+          <p className="text-center bg-black bg-opacity-50 p-4 rounded-lg text-s  md:text-2xl ">
+            Vice President<br/>
+            <a href="tel:9894226269" className='text-base md:text-xl'>Jeesmon SJ <br />9894226269</a>
           </p>
-          
 
-            
           </div>
         </div>
       </form>

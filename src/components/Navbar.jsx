@@ -70,7 +70,7 @@ const Home = () => {
               className="text-white cursor-pointer hover:text-gray-300"
               onClick={() => router("/about")}
             >
-              About
+              About Us
             </div>
           </motion.div>
           {/* <motion.div className='object-cover text-white'

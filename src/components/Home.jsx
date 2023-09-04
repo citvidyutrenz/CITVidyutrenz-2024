@@ -74,7 +74,7 @@ const Home1 = () => {
         <ContactUS />
     
 
-        <div className="mt-24 ">
+        <div className="mt-28 ">
           <Footer />
         </div>
       </div>
