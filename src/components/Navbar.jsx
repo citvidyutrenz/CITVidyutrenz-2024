@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <nav
-      className="bg-black-800 p-4 w-screen z-50 h-[20vh]"
+      className="bg-black-800 p-4 w-screen z-50 "
       style={{ WebkitBackdropFilter: "blur(5px)", backdropFilter: "blur(5px)" }}
     >
       <div className="flex items-center justify-between p-4 ">

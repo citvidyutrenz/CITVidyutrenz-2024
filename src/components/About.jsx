@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AboutusData } from "../data/AboutusData";
 import rightArrow from "../assets/rightArrow.png";
-import leftArrow from "../assets/leftArrow.png";
+
 import { motion } from "framer-motion";
 
 const Aboutus1 = () => {
