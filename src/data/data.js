@@ -116,17 +116,18 @@
         preReq: ["NotePad, Laptop"],
         tag: "workshop",
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/vlsi_jakeo9.jpg",
+       
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfeQUGwKIbSE000wg5CAYzAyzl_FuGp7gq-OKpSseXTdcna4w/viewform?usp=sharing",
         fee:150
     },
     {
       id: 7,
-      name: "NETWORKS AND SECURITY",
+      name: "NETWORKING",
       description:
         "On the screen, a frame from a movie will be displayed without disclosing the character or movie's title. Participants should identify the name of the movie from the given options.",
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/3D_Animation_Style_system_networks_1_fas0nx.jpg",
         preReq: ["NotePad, Laptop"],
         tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLScqkWAHy13igDhJzTVaNq6H1J4cpdoohrT4L_3AR0yfelE-tw/viewform?usp=sharing",
@@ -166,7 +167,7 @@
         "Get ready to take flight. Discover the world of drones, from their design and operation to their applications in various industries.The workshop is organized by Madras Aeroclub in collaboration with Think big innovations. The certificates will be provided by Think big innovations.",
     preReq:["NotePad, Laptop"],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/drone_qsgbte.jpg",
         tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLScNycPv8SeGjpXMud7Z58rjHQlOAkLKey-EgbP00PChHHgETw/viewform?usp=sharing",
       fee:200
@@ -178,7 +179,7 @@
         "Discover the world of Very Large Scale Integration (VLSI) technology in this workshop. Dive into the design and development of microchips and integrated circuits..",
       preReq:["NotePad, Laptop"],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/3D_Animation_Style_5g_wireless_communication_1_sgfcws.jpg",
         tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSe52PyZptkImLYBRA8ZHXyXjmUneTMU55e3I5U3_yS17shsTg/viewform?usp=sharing",
        fee:150,
