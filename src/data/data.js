@@ -117,7 +117,6 @@
         tag: "workshop",
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
-        tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSfeQUGwKIbSE000wg5CAYzAyzl_FuGp7gq-OKpSseXTdcna4w/viewform?usp=sharing",
         fee:150
     },
