@@ -240,25 +240,26 @@
         tag: "nontech",
       link:"https://docs.google.com/forms/d/e/1FAIpQLSfHXD_4dmvZONEPnBpMtrpvbPPLaR9Fd4dSjd-z-95zZqJQ_Q/viewform?usp=sharing"
     },
-    // {
-    //   id: 14,
-    //   name: "VALORANT",
-    //   description:
-    //         "An online team players game. Each team consists of five members each. In the main game mode, players are assigned to the attacking or defending team.",
-    //     rounds: [
-    //         " The matches will be held in batches of 10.",
-    //         "Two teams will be formed. Each team will contain five members.",
-    //         "These two teams will compete with each other. The team that wins will be declared as the winner."],
-    //     judgingCriteria: [
-    //         "Team1 (1st place) will be qualified to finals and the semi-finals.",
-    //         "Team2 (2ndplace) & team3 (3rd place) will play match 2...The winner of the semi-finals will be qualified for the finals",
-    //         "Team1 (1st position) and team(semi final winner) will play match 3. The winner of 3rd match will be declared as the winner."
-    //     ],
-    //     preReq: ["Laptop"],
-    //   imgUrl:
-    //     "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
-    //     tag: "nontech",
-    //     link: "link",
-    //   fee:100,
-    // },
+    {
+      id: 14,
+      name: "VALORANT",
+      description:
+            "An online team players game. Each team consists of five members each. In the main game mode, players are assigned to the attacking or defending team.",
+      rounds: [
+            "Conducted as an online event",
+            " The matches will be held in batches of 10.",
+            "Two teams will be formed. Each team will contain five members.",
+            "These two teams will compete with each other. The team that wins will be declared as the winner."],
+        judgingCriteria: [
+            "Team1 (1st place) will be qualified to finals and the semi-finals.",
+            "Team2 (2ndplace) & team3 (3rd place) will play match 2...The winner of the semi-finals will be qualified for the finals",
+            "Team1 (1st position) and team(semi final winner) will play match 3. The winner of 3rd match will be declared as the winner."
+        ],
+        preReq: ["Laptop"],
+      imgUrl:
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693836020/vidyuimages/valorant-ar_jsoamo.jpg",
+        tag: "nontech",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSe2D5cZdQFL1gDCU-dwuhaa9wlsobMwbW_hD7qhUE0-3wuzaQ/viewform?usp=sharing",
+      fee:100,
+    },
   ];
