@@ -44,9 +44,9 @@ const ContactUS = () => {
 
   return (
     <div className="mt-4 min-h-screen flex items-center justify-center " style={{ backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <form className='font-serif  rounded-lg blur-form' onSubmit={sendEmail}>
-        <h1 className=" mt-12 text-center text-xl md:text-2xl lg:text-3xl font-semibold  text-white mb-8">Contact Us Form</h1>
-        <div className="px-8 flex flex-col items-center md:flex-row md:space-x-24  ">
+      <form className=' rounded-lg blur-form' onSubmit={sendEmail}>
+        <h1 className="  text-center text-xl md:text-2xl lg:text-3xl font-semibold  text-white mb-8">Contact Us Form</h1>
+        <div className="font-serif px-8 flex flex-col items-center md:flex-row md:space-x-24  ">
           <div className="text-white flex flex-col   md:space-y-6">
             <input
               type="text"
@@ -99,10 +99,11 @@ const ContactUS = () => {
               Send
             </button>
           </div>
-          <div className="flex flex-col space-y-4 mb- pb-16 md:mt-2 md:p-12 ">
-          <p className="bg-black bg-opacity-50 py-2 rounded-lg text-xs md:text-xl "> 
-            <a href="tel:9894226269">Yuvaraj SJ: <br /> 9894226269</a></p>
-          <p className=" bg-opacity-50 py-2 rounded-lg text-xs md:text-xl">
+          <div className="flex flex-col space-y-4  pb-16 md:mt-2 md:pr-12 ">
+          <p className="bg-black bg-opacity-50 p-4 rounded-lg text-xs md:text-2xl "> 
+            President<br/>
+            <a href="tel:9894226269" className='text-xl'>Yuvaraj <br /> 9894226269</a></p>
+          <p className="bg-black bg-opacity-50 p-2 rounded-lg text-xs md:text-xl">
             <a href="tel:9894226269">Jeesmon SJ: <br />9894226269</a>
           </p>
           
