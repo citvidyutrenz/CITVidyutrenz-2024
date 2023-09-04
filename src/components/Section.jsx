@@ -1,13 +1,11 @@
-import { useInView } from 'react-intersection-observer';
+
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Section = () => {
   const router = useNavigate();
   const transition = { type: "bounce", duration: 3};
-  const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation only once when it comes into view
-  });
+  
 
   return (
     <>
@@ -34,9 +32,8 @@ const Section = () => {
             career advancement.
           </p>
           <motion.button
-            ref={ref}
-            initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+          
+            initial={{ opacity: 0, x: 100 }} // Initial animation state (bottom to top)
             whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
             transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
@@ -83,9 +80,7 @@ const Section = () => {
           </p>
           <motion.div/>
           <motion.button
-            ref={ref}
-            initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            initial={{ opacity: 0, x: 100 }} // Initial animation state (bottom to top)
             whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
             transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
@@ -129,9 +124,7 @@ const Section = () => {
           </p>
           
           <motion.button
-            ref={ref}
-            initial={{ opacity: 0, y: 50 }} // Initial animation state (bottom to top)
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            initial={{ opacity: 0, x: 100 }} // Initial animation state (bottom to top)
             whileInView={{ opacity: 1, x: 0 }}// Animation when it's visible
             transition={transition}
             className="md:ml-6 p-3 text-xs border rounded-xl"
