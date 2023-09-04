@@ -36,7 +36,7 @@ const Section = () => {
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
-            Explore
+            Register
           </motion.button>
         </motion.div>
 
@@ -83,7 +83,7 @@ const Section = () => {
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
-            Explore
+            Register
           </motion.button>
         </motion.div>
         <motion.div
@@ -128,7 +128,7 @@ const Section = () => {
             className="md:ml-6 p-3 text-xs border rounded-xl"
             onClick={() => router("/events")}
           >
-            Explore
+            Register
           </motion.button>
         </motion.div>
         <motion.div
