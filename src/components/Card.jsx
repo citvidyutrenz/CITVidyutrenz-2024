@@ -1,10 +1,10 @@
 import { useState } from "react";
-import cd from "../assets/cit.png";
+
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const Card = ({ Event, index }) => {
+const Card = ( Event, index ) => {
   const ref = useRef(null);
   const isinView = useInView(ref);
   const router = useNavigate();
