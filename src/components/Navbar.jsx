@@ -15,7 +15,7 @@ const Home = () => {
 
   return (
     <nav
-      className="bg-black-800 p-4 w-screen z-50 h-[20vh]"
+      className="bg-black-800 p-4 w-screen z-50"
       style={{ WebkitBackdropFilter: "blur(5px)", backdropFilter: "blur(5px)" }}
     >
       <div className="flex items-center justify-between p-4 ">
@@ -89,11 +89,9 @@ const Home = () => {
           </motion.div> */}
         </div>
 
-      
-
         <button className="md:hidden text-white" onClick={toggleMenu}>
           <GiHamburgerMenu />
-        </button> 
+        </button>
       </div>
       {isOpen && (
         <div className=" fixed top-0 right-0 h-screen bg-black p-10 w-64 transition-transform transform translate-x-0 md:hidden z-100">

@@ -68,12 +68,12 @@ const Aboutus1 = () => {
 
         {/* IMAGES - OUTLINE , OUTFILL, IMAGE */}
 
-        <div className="relative flex-1 h-48">
+        <div className="relative h-[20rem]">
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             transition={{ ...transition, duration: 2 }}
             animate={{ opacity: 1, x: 0 }}
-            className="relative h-20 bg-transparent border-2 border-white w-44 lg:h-96 lg:w-80 md:h-fit md:w-40 md:ml-[240px] right-14 top-2"
+            className="relative h-48 bg-transparent border-2 border-white w-44 lg:h-96 lg:w-80 md:h-fit md:w-40 ml-[100px] md:ml-[240px] right-14 top-2"
           ></motion.div>
 
           <motion.div
