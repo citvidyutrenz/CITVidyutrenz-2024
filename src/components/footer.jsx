@@ -15,16 +15,16 @@ const Footer = () => {
       }}
     >
       <div className="md:flex flex items-center  justify-center space-x-10 mb-1 md:mb-0 text-l md:text-xl">
-        <a href="https://www.facebook.com/">
+        <a href="https://www.youtube.com/@citvidyutrenz">
           <FaYoutube className="" />
         </a>
-        <a href="https://twitter.com/">
+        <a href="https://twitter.com/vidyutrenz">
           <FaTwitter />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://instagram.com/cit.vidyutrenz?igshid=MWZjMTM2ODFkZg==">
           <FaInstagram />
         </a>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.linkedin.com/in/cit-vidyutrenz-a71570262/">
           <FaLinkedinIn />
         </a>
       </div>

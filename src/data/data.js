@@ -35,7 +35,7 @@
         "Participants who can design a circuit faster and with accuracy of circuits can be considered as a winner.",
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1693764811/vidyuimages/guessing2_nc1jwm.jpg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693812868/vidyuimages/Electromaze_ar_nldi7t.jpg",
         tag: "tech",
       link:"https://docs.google.com/forms/d/e/1FAIpQLSf2VaPmFsG3fBByQuHWUokbIvqS0FJOcWTEo9doiNq7UO0otQ/viewform?usp=sharing"
     },
@@ -61,7 +61,7 @@
           "Top three participants will be considered as winners"
       ],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1693764811/vidyuimages/rivalria_jzradn.jpg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693812868/vidyuimages/rivalriaar_wkj5pc.jpg",
         tag: "tech",
       link:"https://docs.google.com/forms/d/e/1FAIpQLSfmdY0JoNWWuj9Oo_spy6tMDJtMYa9rRfZ4ERHK_2gHTWqrhw/viewform?usp=sharing"
     },
@@ -154,7 +154,7 @@
         "Sharpen your image processing skills thorugh our workshop. Explore techniques for enhancing and analyzing digital images and learn about various stages of image processing.",
      
       imgUrl:
-            "https://res.cloudinary.com/e-compractice/image/upload/v1691301921/lumos/Career1_c6qalm.svg",
+            "https://res.cloudinary.com/e-compractice/image/upload/v1693812868/vidyuimages/Image_processing_ar_exfvzc.jpg",
        preReq: ["NotePad, Laptop"],
         tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSer-z-uG4mrrwEVKzKnHeJR9WOILCuw1Kzh8xuqKwfGsebFHA/viewform?usp=sharing",
@@ -179,7 +179,7 @@
         "Discover the world of Very Large Scale Integration (VLSI) technology in this workshop. Dive into the design and development of microchips and integrated circuits..",
       preReq:["NotePad, Laptop"],
       imgUrl:
-        "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/3D_Animation_Style_5g_wireless_communication_1_sgfcws.jpg",
+        "https://res.cloudinary.com/e-compractice/image/upload/v1693812868/vidyuimages/5G_ar_xcrlcf.jpg",
         tag: "workshop",
         link: "https://docs.google.com/forms/d/e/1FAIpQLSe52PyZptkImLYBRA8ZHXyXjmUneTMU55e3I5U3_yS17shsTg/viewform?usp=sharing",
        fee:150,
