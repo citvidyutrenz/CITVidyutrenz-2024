@@ -47,7 +47,7 @@ const ContactUS = () => {
       <form className='font-serif  rounded-lg blur-form' onSubmit={sendEmail}>
         <h1 className=" mt-12 text-center text-xl md:text-2xl lg:text-3xl font-semibold  text-white mb-8">Contact Us Form</h1>
         <div className="px-8 flex flex-col items-center md:flex-row md:space-x-24  ">
-          <div className="text-white flex flex-col  mb-  md:space-y-6">
+          <div className="text-white flex flex-col   md:space-y-6">
             <input
               type="text"
               placeholder="Full Name"
@@ -99,15 +99,13 @@ const ContactUS = () => {
               Send
             </button>
           </div>
-          <div className="flex flex-col space-y-4 mb-10 pb-16 md:mt-2 md:p-12 ">
+          <div className="flex flex-col space-y-4 mb- pb-16 md:mt-2 md:p-12 ">
           <p className="bg-black bg-opacity-50 py-2 rounded-lg text-xs md:text-xl "> 
             <a href="tel:9894226269">Yuvaraj SJ: <br /> 9894226269</a></p>
           <p className=" bg-opacity-50 py-2 rounded-lg text-xs md:text-xl">
             <a href="tel:9894226269">Jeesmon SJ: <br />9894226269</a>
           </p>
-          <p className="bg-black bg-opacity-50  rounded-lg text-xs md:text-xl">
-            <a href="tel:9894226269">Sangamithra: <br />9894226269</a>
-          </p>
+          
 
             
           </div>

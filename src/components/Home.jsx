@@ -6,7 +6,7 @@ import Section from "./Section";
 // import Memories from "./Memories";
 import ContactUS from "./ContactUs";
 // import CardWithVideo from "./Memories1";
-// import CreditPage from '../pages/CreditsPage'
+import Credits from '../pages/Credits'
 
 const Home1 = () => {
   const targetDate = new Date("2023-09-21T00:00:00").getTime();
@@ -72,7 +72,7 @@ const Home1 = () => {
         <Section />
 
         <ContactUS />
-        {/* <CreditPage /> */}
+        <Credits/>
 
         <div className="mt-24 ">
           <Footer />

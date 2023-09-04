@@ -78,7 +78,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0}} // Target state
           transition={{ type: 'smooth', duration: 1, delay: 0.7 }}
           >
-          <div className="text-white cursor-pointer hover:text-gray-300">Contact Us</div>
+          <div className="text-white cursor-pointer hover:text-gray-300" >Contact Us</div>
           </motion.div> */}
           {/* <motion.div className='object-cover text-white'
           initial={{ opacity: 0, y: 100 }} // Initial state
