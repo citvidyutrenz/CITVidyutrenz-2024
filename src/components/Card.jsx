@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-const Card = ( Event, index ) => {
+const Card = ({ Event, index }) => {
   const ref = useRef(null);
   const isinView = useInView(ref);
   const router = useNavigate();
@@ -101,7 +101,7 @@ const Card = ( Event, index ) => {
             onClick={() => router(`/events/${Event.id}`)}
             className="p-3 text-xs border rounded-xl"
           >
-            Explore
+            Register
           </button>
         </div>
       </div>
