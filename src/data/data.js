@@ -164,7 +164,7 @@
       id: 10,
       name: "DRONE TECHNOLOGY",
       description:
-        "Get ready to take flight. Discover the world of drones, from their design and operation to their applications in various industries.The workshop is organized by Madras Aeroclub in collaboration with Think big innovations. The certificates will be provided by Think big innovations.",
+        "Get ready to take flight. Discover the world of drones, from their design and operation to their applications in various industries.The workshop is organized by Think big innovations. The certificates will be provided by Think big innovations.",
     preReq:["NotePad, Laptop"],
       imgUrl:
         "https://res.cloudinary.com/e-compractice/image/upload/v1693795903/vidyuimages/drone_qsgbte.jpg",
