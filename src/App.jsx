@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="app flex-row bg-cover bg-center">
       <Router>
-        {/* <div className=" fixed w-auto md:h-fit md:w-full z-50">
+        <div className=" fixed w-auto md:h-fit md:w-full z-50">
           <Navbar />
-        </div> */}
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/events" element={<AllEvents />} />
